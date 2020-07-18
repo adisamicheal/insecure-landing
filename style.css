@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero, .different {
+    font-family: 'Karla', sans-serif;
+}
+.hero{
+    display: flex;
+    /* justify-content: space-around; */
+    background: url(images/bg-pattern-intro-right-desktop.svg) hsl(256, 26%, 20%);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding:  100px 150px 150px 150px;
+}
+.heading {
+    /* padding: 0 800px 0 0; */
+}
+.heading hr {
+    width: 200px;
+    margin-bottom: 60px;
+}
+.heading h3 {
+    font-size: 45px;
+    line-height: 45px;
+    color: #ffffff
+}
+.heading p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.heading button {
+    padding: 10px 20px;
+    color: #ffffff;
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.img-overflow {
+    position: absolute;
+    margin-left: 40%;
+}
+.different {
+    padding: 300px 150px 100px 150px;
+    background: url(images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+}
+.different h3 {
+    font-size: 45px;
+}
+.different-icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.left {
+    margin-left: 100px;
+}
+.different-icon h6 {
+    margin-top: 30px;
+    font-size: 16px;
+}
+.different-icon p {
+    font-size: 12px;
+    color: hsl(273, 4%, 51%);
+    margin-top: 20px;
+}
+.purple {
+    background: url(images/bg-pattern-how-we-work-mobile.svg) hsl(256, 26%, 20%);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 70px 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 200px;
+    /* background: url(images/bg-pattern-how-we-work-mobile.svg); */
+}
+.purple h5 {
+    font-size: 45px;
+    color: #ffffff;
+}
+.purple button {
+    /* padding: 10px 20px; */
+    color: #ffffff;
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 70%;
+    height: 50px;
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .hero img {
+        width: 100%;
+    }
+    .heading {
+        padding: 100px 30px;
+    }
+    .img-overflow {
+        position: relative;
+        margin-left: 0;
+    }
+    .hero hr {
+        display: none;
+    }
+    .different {
+        padding: 100px 30px;
+    }
+    .different-icon {
+        flex-direction: column;
+    }
+    .left {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .purple {
+        grid-template-columns: 1fr;
+        padding: 30px 10px;
+    }
+    .purple button {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 50%;
+    }
+}
